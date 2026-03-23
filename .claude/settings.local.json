@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude --version)",
+      "Bash(chmod +x /Users/jojenh/.claude/plugins/claude-hud/run.sh)",
+      "Bash(bash /Users/jojenh/.claude/plugins/claude-hud/run.sh)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(go test:*)",
+      "Bash(go build:*)",
+      "Bash(go run:*)"
+    ]
+  }
+}
